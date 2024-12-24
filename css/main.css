@@ -1,0 +1,32 @@
+.item-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-list__img {
+    width: 100px;
+    margin-right: 10px;
+    padding: 40px 0 40px 0 ;
+    min-width: 300px;
+  }
+  
+  .item-list__info {
+    flex: 1;
+  }
+  
+  .item-list__info-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.write-btn {
+    background-color:  #FF7008;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    border-radius: 21px;
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    transform: scale(1.3);
+}
